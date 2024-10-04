@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relevé Bancaire Fictif</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .balance {
+            font-weight: bold;
+            color: #27ae60;
+        }
+        .negative {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Relevé Bancaire</h1>
+    <h2>Nom du titulaire  Jean Dupont</h2>
+    <p>Numéro de compte  1234 5678 9012 3456</p>
+    <p>Adresse  15 Rue de la Banque, 75001 Paris</p>
+    
+    <h3>Solde actuel  <span class="balance">3 500,00 €</span></h3>
+
+    <h2>Historique des transactions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Débit</th>
+                <th>Crédit</th>
+                <th>Solde</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01/09/2024</td>
+                <td>Virement salaire</td>
+                <td></td>
+                <td>2 500,00 €</td>
+                <td>3 500,00 €</td>
+            </tr>
+            <tr>
+                <td>28/08/2024</td>
+                <td>Paiement restaurant</td>
+                <td>50,00 €</td>
+                <td></td>
+                <td>1 000,00 €</td>
+            </tr>
+            <tr>
+                <td>25/08/2024</td>
+                <td>Achat supermarché</td>
+                <td>150,00 €</td>
+                <td></td>
+                <td>1 050,00 €</td>
+            </tr>
+            <tr>
+                <td>20/08/2024</td>
+                <td>Paiement EDF</td>
+                <td>80,00 €</td>
+                <td></td>
+                <td>1 200,00 €</td>
+            </tr>
+            <tr>
+                <td>15/08/2024</td>
+                <td>Retrait DAB</td>
+                <td>200,00 €</td>
+                <td></td>
+                <td>1 280,00 €</td>
+            </tr>
+            <tr>
+                <td>10/08/2024</td>
+                <td>Virement Pierre Durand</td>
+                <td></td>
+                <td>300,00 €</td>
+                <td>1 480,00 €</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
+
